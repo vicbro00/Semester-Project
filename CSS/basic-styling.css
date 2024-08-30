@@ -1,0 +1,35 @@
+:root {
+  font-family: "pt serif", "roboto slab", "noto serif";
+  font-size: 62.5%;
+}
+
+main {
+  margin: 0 5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+h1 {
+  color: rgb(2, 91, 56);
+}
+
+h2 {
+  font-family: "roboto slab";
+  color: rgb(2, 91, 56);
+}
+
+p {
+  font-size: 1.2em;
+}
+
+h3,
+p {
+  font-family: "noto serif";
+}

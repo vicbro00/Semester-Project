@@ -1,0 +1,43 @@
+
+
+footer {
+  height: 5em;
+  background-color: rgb(2, 91, 56);
+  border-top-left-radius: 1.5em;
+  border-top-right-radius: 1.5em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.bot-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.bot-nav i {
+  width: 2em;
+  height: 2em;
+  font-size: 2.5em;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Mobile styles */
+@media screen and (max-width: 600px) {
+  .bot-nav {
+    justify-content: space-evenly;
+  }
+
+  .bot-nav p {
+    display: none;
+  }
+}

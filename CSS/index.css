@@ -1,0 +1,57 @@
+body {
+  margin-bottom: 10em;
+}
+
+.bar {
+  background-color: rgb(2, 91, 56);
+  height: 1em;
+  width: 100%;
+}
+
+main img {
+  max-width: 40%;
+  height: fit-content;
+  margin: auto;
+}
+
+.mid-img {
+  min-width: 100%;
+  margin-bottom: 6em;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  margin: 2em 0;
+}
+
+p {
+  margin-bottom: 2em;
+  line-height: 1.5em;
+  text-align: justify;
+  min-width: 60%;
+}
+
+.indent {
+  display: block;
+  margin-top: 1.5em;
+}
+
+.brown {
+  color: rgb(154, 101, 40);
+}
+
+.blue {
+  color: rgb(22, 62, 163);
+}
+
+.for-teachers {
+  margin-top: 2em;
+}
+
+.bold {
+  font-weight: 700;
+}
