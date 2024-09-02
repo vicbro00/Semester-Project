@@ -1,0 +1,22 @@
+ul {
+  list-style-type: circle;
+  padding: 0;
+}
+
+li {
+  margin: 1em 0;
+  font-size: 1.2em;
+}
+
+h1 {
+  text-align: center;
+  margin: 1em 0;
+}
+
+html {
+  background-color: #b3cdc3;
+}
+
+.bold {
+  font-size: 2.8em;
+}
