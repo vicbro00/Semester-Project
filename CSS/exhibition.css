@@ -1,0 +1,50 @@
+.header {
+  background-color: rgb(2, 91, 56);
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+  width: 80%;
+  margin: 1em auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+main img {
+  max-width: 40%;
+  margin: auto;
+}
+
+.astronaut,
+.heart {
+  border-radius: 25px;
+}
+
+.container {
+  display: flex;
+  margin: 2em 0;
+}
+
+.mid-img {
+  min-width: 100%;
+}
+
+.indent {
+  display: block;
+  margin-top: 1.5em;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.brown {
+  color: rgb(154, 101, 40);
+}
