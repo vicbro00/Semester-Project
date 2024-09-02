@@ -24,6 +24,16 @@ nav {
   width: 100%;
 }
 
+.title {
+  color: white;
+  margin: 0;
+  line-height: 0;
+  text-align: none;
+  width: auto;
+  font-weight: 200;
+  font-size: 2em;
+}
+
 #check {
   display: none;
 }

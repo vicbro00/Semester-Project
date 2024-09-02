@@ -14,6 +14,7 @@ a {
 body {
   overflow-x: hidden;
   margin: 0;
+  margin-bottom: 10em;
 }
 
 h1 {
@@ -32,4 +33,7 @@ p {
 h3,
 p {
   font-family: "noto serif";
+  margin-bottom: 2em;
+  line-height: 1.5em;
+  text-align: justify;
 }

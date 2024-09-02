@@ -3,8 +3,8 @@
 footer {
   height: 5em;
   background-color: rgb(2, 91, 56);
-  border-top-left-radius: 1.5em;
-  border-top-right-radius: 1.5em;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   position: fixed;
   bottom: 0;
   left: 0;

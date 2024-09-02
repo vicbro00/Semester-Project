@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Museum of Wonders Contact Page">
+    <meta name="description" content="Museum of Wonders Home Page">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Museum of Wonders | Contact Page</title>
+    <title>Museum of Wonders</title>
     <link rel="apple-touch-icon" sizes="180x180" href="Logos/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="Logos/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="Logos/favicon-16x16.png">
@@ -23,67 +23,89 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7d33f7d3ef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/basic-styling.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+    <link rel="stylesheet" href="CSS/footer.css">
   </head>
 
   <body>
     <header>
       <nav>
-        <div class="hamburger-menu">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-        <div>
-          <ul>
+        <input type="checkbox" id="check"/>
+        <label for="check" class="checkbutton"><i class="fa-solid fa-bars"></i></label>
+          <ul class="menu">
             <li><a href="contact.html">Contact</a></li>
             <li><a href="contribution.html">Contribution</a></li>
             <li><a href="exhibition.html">Exhibition</a></li>
             <li><a href="document.html">Documents</a></li>
           </ul>
-        </div>
-        <div>
-          <a href="index.html">
+          <h1 class="title">Museum of Wonders</h1>
+        <a href="index.html" class="logo">
           <img src="Logo.png" alt="Green and black dinosaur head, the logo of the Museum of Wonders Webpage.">
-          </a>
-        </div>
+        </a>
       </nav>
     </header>
 
     <main>
-      <h1>Visit</h1>
+      <h1 class="visit">Visit</h1>
       <h2>Location</h2>
-      <h3>The museum is located at Gyldenpris, Bergen</h3>
+      <p>The museum is located at Gyldenpris, Bergen</p>
       <h2>Admission</h2>
-      <h3>The entrance is free for all.
+      <p>The entrance is free for all.
         There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum.
         If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.
-      </h3>
+      </p>
       <h2>Hours</h2>
-      <h3>Monday: Closed</h3>
-      <h3>Tuesday: 10:00 &ndash; 16:00</h3>
-      <h3>Wednesday: 10:00 &ndash; 16:00</h3>
-      <h3>Thursday: 10:00 &ndash; 16:00</h3>
-      <h3>Friday: 10:00 &ndash; 19:00</h3>
-      <h3>Saturday: 9:00 &ndash; 16:00</h3>
-      <h3>Sunday: 9:00 &ndash; 13:00</h3>
+      <p class="hours">Monday: Closed
+      <span class="indent">Tuesday: 10:00 &ndash; 16:00</span>
+      <span class="indent">Wednesday: 10:00 &ndash; 16:00</span>
+      <span class="indent">Thursday: 10:00 &ndash; 16:00</span>
+      <span class="indent">Friday: 10:00 &ndash; 19:00</span>
+      <span class="indent">Saturday: 9:00 &ndash; 16:00</span>
+      <span class="indent">Sunday: 9:00 &ndash; 13:00</p></span>
+      <img src="Images/fish.png" alt="">
       <h2>Accessility</h2>
-      <h3>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</h3>
+      <p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
       <h2>Food and drink</h2>
-      <h3>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</h3>
+      <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
       <h2>Shop</h2>
-      <h3>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you&apos;ve left the museum.</h3>
+      <p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you&apos;ve left the museum.</p>
       <h2>Fill out this form if you have any questions!</h2>
-      <fieldset><!--Fill in forms here--></fieldset>
-      <fieldset><!--Message fieldset here--></fieldset>
+      <fieldset class="form">
+        <div class="left">
+        <label for="firstname">First name:</label>
+        <input type="text" id="firstname" name="firstname"><br><br>
+        <label for="lastname">Last name:</label>
+        <input type="text" id="lastname" name="lastname"><br><br>
+        <label for="phonenumber">Phone number:</label>
+        <input type="text" id="phonenumber" name="phonenumber"><br><br>
+        </div>
+        <div class="right">
+        <label for="email">Email address:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="postcode">Post code:</label>
+        <input type="text" id="postcode" name="postcode"><br><br>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address"><br><br>
+        </div>
+        <input type="submit" value="Send">
+      </fieldset>
+      <fieldset class="message">
+        <label for="message">Type your message</label>
+        <input type="text" id="message" name="message">
+      </fieldset>
     </main>
 
   </body>
   <footer>
-    <div>
-      <p class="hide-mobile">Copyright</p>
+    <nav class="bot-nav">
+      <p>&copy; Copyright</p>
       <a href="index.html"><i class="fa-solid fa-house"></i></a>
       <i class="fa-solid fa-magnifying-glass"></i>
       <i class="fa-solid fa-location-dot"></i>
       <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
-    </div>
+    </nav>
   </footer>
 
 </html>
