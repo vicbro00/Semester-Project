@@ -2,7 +2,7 @@ header {
   background-color: rgb(2, 91, 56);
   position: sticky;
   top: 0;
-  width: 100vw;
+  max-width: 100vw;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,7 +22,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  max-width: 100%;
 }
 
 .title {
@@ -45,27 +45,27 @@ nav {
   margin-left: 0.5em;
 }
 
-.menu {
-  display: none;
-}
-
 #check:checked ~ .menu {
   display: block;
 }
 
 .menu {
   position: absolute;
-  top: 3em;
+  top: 4.5em;
   left: 0;
   background-color: rgb(2, 91, 56);
   z-index: 1;
-  width: 40%;
+  width: 25%;
+  display: none;
+  margin: auto;
+  padding: 0;
 }
 
 .menu a {
   color: white;
-  padding: 1em 0em;
+  padding: 1em 3em;
   display: block;
+  margin: auto;
 }
 
 .header-image {
@@ -74,4 +74,15 @@ nav {
   margin: 0;
   display: block;
   box-sizing: border-box;
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px) {
+  .menu {
+    height: 16.6em;
+  }
+
+  .menu a {
+    margin: 0.8em 0;
+  }
 }

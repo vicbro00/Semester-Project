@@ -48,3 +48,8 @@ p {
 .bold {
   font-weight: 700;
 }
+
+/* For tablets: */
+@media only screen and (min-width: 600px) {
+  
+}

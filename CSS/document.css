@@ -1,9 +1,9 @@
-ul {
+main ul {
   list-style-type: circle;
   padding: 0;
 }
 
-li {
+main li {
   margin: 1em 0;
   font-size: 1.2em;
 }

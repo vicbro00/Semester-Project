@@ -38,3 +38,9 @@ p {
   line-height: 1.5em;
   text-align: justify;
 }
+
+@media only screen and (min-width: 600px) {
+  body {
+    font-size: 1.5em;
+  }
+}
