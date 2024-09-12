@@ -1,14 +1,27 @@
 main img {
-  max-width: 30%;
   height: fit-content;
   margin: auto;
   float: right;
+}
+
+.form-text {
+  text-align: center;
 }
 
 .hours {
   width: 60%;
   display: inline-block;
   margin: 0;
+}
+
+.header {
+  background-color: rgb(2, 91, 56);
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+  width: 80%;
+  margin: 1em auto;
 }
 
 .indent {
@@ -82,7 +95,12 @@ input {
   display: block;
 }
 
-@media only screen and (min-width: 600px) {
+/* For mobiles: */ 
+@media only screen and (max-width: 480px) {
+  main img {
+    max-width: 30%;
+  }
+  
   fieldset input {
     height: 2em;
   }
@@ -101,8 +119,18 @@ input {
     padding: 0 1em;
     box-sizing: border-box;
   }
+}
 
+/* For tablets: */
+@media only screen and (min-width: 481px) {
   main img {
-    height: auto;
+    max-width: 30%;
+  }
+}
+
+/* For large desktop: */
+@media only screen and (min-width: 1025px) {
+  main img {
+    min-width: 40%;
   }
 }
