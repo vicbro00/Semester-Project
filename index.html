@@ -32,8 +32,8 @@
   <body>
     <header>
       <nav>
-        <input type="checkbox" id="check"/>
-        <label for="check" class="checkbutton"><i class="fa-solid fa-bars"></i></label>
+          <input type="checkbox" id="check"/>
+          <label for="check" class="checkbutton"><i class="fa-solid fa-bars"></i></label>
           <ul class="menu">
             <li><a href="contact.html">Contact</a></li>
             <li><a href="contribution.html">Contribution</a></li>
@@ -41,6 +41,20 @@
             <li><a href="document.html">Documents</a></li>
           </ul>
           <h1 class="title">Museum of Wonders</h1>
+          <div class="info">
+            <a href="contact.html">
+              <h1>Contact</h1>
+            </a>
+            <a href="contribution.html">
+              <h1>Contribution</h1>
+            </a>
+            <a href="exhibition.html">
+              <h1>Exhibitions</h1>
+            </a>
+            <a href="document.html">
+              <h1>Documents</h1>
+            </a>
+          </div>
         <a href="index.html" class="logo">
           <img src="Logo.png" alt="Green and black dinosaur head, the logo of the Museum of Wonders Webpage.">
         </a>
@@ -51,7 +65,7 @@
   <h1>
     Explore Together
   </h1>
-  <div class="container">
+  <div class="container-left">
   <p>
     Come <span class="bold">join</span> us at the Community Science Museum where we&apos;re committed to making science accessible to all.
     <span class="indent">Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth
@@ -61,8 +75,8 @@
   <img class="item-right" src="Pictures/pexels-theshuttervision-9660892.jpg">
   </div>
   <div class="bar"></div>
-  <div class="container">
-  <img class="item-left" src="Pictures/pexels-pixabay-41953.jpg">
+  <div class="container-right">
+  <img class="item-left" src="Pictures/pexels-pixabay-41953.png">
   <p>
     The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.
     <span class="indent">We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over <span class="bold">1000</span> different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed
@@ -70,12 +84,19 @@
     </span>
   </p>
   </div>
+  <div class="bar"></div>
   <img src="Images/celso-405219 1.png" class="mid-img">
   <div class="bar"></div>
   <h1>
     Explore
   </h1>
+  <div class="parent">
+    <div>
   <h2>For Kids</h2>
+  <img id="hide-mobile" src="Pictures/pexels-ekamelev-1104972.png">
+    </div>
+  <h2 id="hide-mobile">For teachers</h2>
+  <h2 id="hide-mobile">Researchers</h2>
   <div class="container">
   <p>
     Are you a young person looking to learn more about science? Come on down to our museum, there&apos;s plenty to see and do.
@@ -86,10 +107,10 @@
     Each holiday we pick a new theme to explore. To find out more about the holiday club and how you can join, send us a message.
     </span>
   </p>
-  <img class="item-right" src="Pictures/pexels-ekamelev-1104972.jpg">
+  <img class="item-right" id="hide-desktop" src="Pictures/pexels-ekamelev-1104972.png">
   </div>
-  <div class="bar"></div>
-  <h2 class="for-teachers">For teachers</h2>
+  <div class="bar" id="hide-desktop"></div>
+  <h2 class="hide-desktop">For teachers</h2>
   <div>
   <p>
     As a community-driven museum, we want to work with schools to create places of learning and exploring. Our team are on hand to give your students guided tours of the museum, teach them in our learning laboratory, 
@@ -99,13 +120,14 @@
     </span>
   </p>
   </div>
-  <h2>Researchers</h2>
+  <h2 class="hide-desktop">Researchers</h2>
   <div>
   <p>
     Are you looking to get involved with our team of researchers and academics? Our museum offers various ways for you to use our resources and contribute towards them. 
     <span class="indent">We have online records, laboratory space, and a working relationship with a number of universities around the country.
     </span>
   </p>
+  </div>
   </div>
 </main>
   <footer>

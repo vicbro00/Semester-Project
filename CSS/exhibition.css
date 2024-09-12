@@ -1,3 +1,7 @@
+h1 {
+  text-align: center;
+}
+
 h2 {
   text-align: center;
   font-size: 2em;
@@ -12,11 +16,11 @@ main img {
   margin: auto;
 }
 
-.astronaut,
-.heart,
+.chemical,
+.nature,
 .dino,
-.nature {
-  border-radius: 25px;
+.heart,
+.astronaut {
   margin-left: 1em;
 }
 

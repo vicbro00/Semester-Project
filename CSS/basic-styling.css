@@ -39,8 +39,23 @@ p {
   text-align: justify;
 }
 
-@media only screen and (min-width: 600px) {
+/* For tablets: */
+@media only screen and (min-width: 481px) {
   body {
     font-size: 1.5em;
+  }
+}
+
+/* For smaller desktop: */
+@media only screen and (min-width: 768px) {
+  main {
+    margin: 0 5em;
+  }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 1025px) {
+  main {
+    margin: 0 10em;
   }
 }

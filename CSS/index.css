@@ -12,24 +12,20 @@ main img {
 
 .mid-img {
   min-width: 100%;
-  margin-bottom: 6em;
+}
+
+.bar {
+  margin: 4em 0;
 }
 
 h1 {
   text-align: center;
 }
 
-.container {
+.container-left,
+.container-right {
   display: flex;
   margin: 2em 0;
-}
-
-.item-left {
-  margin-right: 1em;
-}
-
-.item-right {
-  margin-left: 1em;
 }
 
 .indent {
@@ -45,15 +41,111 @@ h1 {
   color: rgb(22, 62, 163);
 }
 
-.for-teachers {
-  margin-top: 2em;
-}
-
 .bold {
   font-weight: 700;
 }
 
-/* For tablets: */
-@media only screen and (min-width: 600px) {
+.container {
+  display: flex;
+  gap: 10%;
+}
+
+.container-left,
+.container-right {
+  gap: 10%;
+}
+
+/* For mobiles: */ 
+@media only screen and (max-width: 480px) {
+  main img {
+    max-width: 40%;
+  }
+
+
   
+  #hide-mobile {
+    display: none;
+  }
+
+  .hide.desktop {
+    display: block;
+  }
+
+  .hide.mobile {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  #check:checked ~ .menu {
+    display: block;
+  }
+
+  .info {
+    display: none;
+  }
+}
+
+/* For tablets: */
+@media only screen and (min-width: 481px) {
+  #hide-mobile {
+    display: none;
+  }
+
+  .hide.mobile {
+    display: block;
+  }
+
+  .info {
+    display: none;
+  }
+}
+
+/* For large desktop: */
+@media only screen and (min-width: 1025px) {
+  .hide-desktop,
+  #hide-desktop,
+  .title,
+  #check,
+  .checkbutton {
+    display: none;
+  }
+
+  .info {
+    display: block;
+  }
+
+  .info h1 {
+    color: white;
+    display: inline-block;
+    margin: 0 0 0 4em;
+    font-size: 1.5em;
+  }
+
+  .header-image {
+    height: 20em;
+    width: 100%;
+  }
+
+  #hide-mobile {
+    display: inline-block;
+    max-height: 4em;
+  }
+
+  .hide-mobile {
+    margin: 0;
+  }
+
+  h2 {
+    display: inline-block;
+  }
+
+  .parent {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto;
+    column-gap: 2em;
+  }
 }
