@@ -58,4 +58,8 @@ p {
   main {
     margin: 0 10em;
   }
+
+  body {
+    margin-bottom: 0;
+  }
 }

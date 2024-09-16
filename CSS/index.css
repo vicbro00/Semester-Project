@@ -100,9 +100,9 @@ h1 {
     width: 100%;
   }
 
-  #hide-mobile {
+  #hide-mobile,
+  .for-kids {
     display: inline-block;
-    max-height: 4em;
   }
 
   .hide-mobile {
@@ -115,8 +115,8 @@ h1 {
 
   .parent {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
-    column-gap: 2em;
+    column-gap: 5%;
   }
 }

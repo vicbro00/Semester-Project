@@ -12,25 +12,43 @@ h3 {
 }
 
 main img {
-  max-width: 40%;
-  margin: auto;
+  max-width: 25em;
+  max-height: 15em;
+  justify-content: center;
+  border-radius: 2em;
 }
 
-.chemical,
-.nature,
-.dino,
-.heart,
-.astronaut {
-  margin-left: 1em;
+.header {
+  background-color: rgb(2, 91, 56);
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+  width: 80%;
+  margin: 1em auto;
 }
 
 .container {
-  display: flex;
-  margin: 2em 0;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: center;
+  justify-items: center;
+}
+
+main p {
+  background-color: rgb(216, 216, 216);
+  padding: 1em;
 }
 
 .mid-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mid-img img {
   min-width: 100%;
+  min-height: 20vw;
+  object-fit: cover;
 }
 
 .indent {

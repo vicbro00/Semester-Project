@@ -1,16 +1,3 @@
-
-
-footer {
-  height: 5em;
-  background-color: rgb(2, 91, 56);
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
 .bot-nav {
   display: flex;
   justify-content: space-between;
@@ -40,6 +27,25 @@ footer {
   .bot-nav p {
     display: none;
   }
+
+  footer {
+    height: 5em;
+    background-color: rgb(2, 91, 56);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  footer img {
+    display: none;
+  }
+
+  .footer-container {
+    display: none;
+  }
 }
 
 /* For tablets: */
@@ -51,11 +57,100 @@ footer {
   .bot-nav p {
     display: none;
   }
+
+  footer {
+    height: 5em;
+    background-color: rgb(2, 91, 56);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  footer img {
+    display: none;
+  }
+
+  .footer-container {
+    display: none;
+  }
 }
 
 /* For desktop: */
 @media only screen and (min-width: 769px) {
-  footer {
+  .bot-nav {
     display: none;
+  }
+
+  footer {
+    height: auto;
+    background-color: rgb(2, 91, 56);
+    border-radius: 0;
+    position: relative;
+    bottom: none;
+    left: none;
+    right: none;
+  }
+
+  footer p {
+    color: white;
+    margin: 0.4em 0;
+  }
+
+  footer img {
+    max-height: 9em;
+    display: block;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr;
+    gap: 2%;
+    align-items: center;
+    justify-items: center;
+    padding: 2em 0;
+  }
+
+  .footer-left div,
+  .footer-right div {
+    margin: 2em 0;
+  }
+
+  .footer-right,
+  .footer-left,
+  .footer-copyright {
+    margin: 0 1em;
+  }
+
+  .footer-copyright p {
+    text-align: center;
+  }
+
+  .footer-copyright {
+    text-align: center;
+  }
+
+  #input {
+    display: inline-block;
+  }
+
+  input {
+    border-radius: 25px;
+    border-style: none;
+    width: 100%;
+    height: 2em;
+    margin: 0.4em 0;
+  }
+
+  footer i {
+    color: white;
+    font-size: 3em;
+  }
+
+  .follow {
+    display: flex;
+    justify-content: space-between;
   }
 }
