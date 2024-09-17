@@ -67,7 +67,7 @@ input[type="submit"] {
 }
 
 /* For mobiles: */ 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 375px) {
   main img {
     max-width: 30%;
   }
