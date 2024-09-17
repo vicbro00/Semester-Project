@@ -43,6 +43,7 @@ main p {
 .mid-img {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 5%;
 }
 
 .mid-img img {
@@ -62,4 +63,38 @@ main p {
 
 .brown {
   color: rgb(154, 101, 40);
+}
+
+/* For mobiles: */ 
+@media only screen and (max-width: 480px) {
+  .mid-img {
+    justify-items: stretch;
+  }
+
+  .mid-img img {
+    min-height: 10em;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* For tablets: */
+@media only screen and (min-width: 481px) {
+  .mid-img {
+    justify-items: stretch;
+  }
+
+  .mid-img img {
+    min-height: 20em;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

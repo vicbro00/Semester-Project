@@ -39,22 +39,20 @@ p {
   text-align: justify;
 }
 
+/* For mobiles: */ 
+@media only screen and (min-width: 480px) {
+
+}
+
 /* For tablets: */
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 767px) {
   body {
     font-size: 1.5em;
   }
 }
 
-/* For smaller desktop: */
-@media only screen and (min-width: 768px) {
-  main {
-    margin: 0 5em;
-  }
-}
-
 /* For desktop: */
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1280px) {
   main {
     margin: 0 10em;
   }

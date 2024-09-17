@@ -78,6 +78,7 @@ nav h1:hover {
   margin: 0;
   display: block;
   box-sizing: border-box;
+  object-fit: cover;
 }
 
 /* For mobiles: */ 
@@ -112,7 +113,7 @@ nav h1:hover {
 }
 
 /* For tablets: */
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 767px) {
   .menu {
     height: 16.6em;
   }
@@ -135,7 +136,7 @@ nav h1:hover {
 }
 
 /* For large desktop: */
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1280px) {
   .info {
     display: block;
   }

@@ -7,7 +7,6 @@
 main img {
   max-width: 40%;
   height: fit-content;
-  margin: auto;
 }
 
 .mid-img {
@@ -47,7 +46,7 @@ h1 {
 
 .container {
   display: flex;
-  gap: 10%;
+  align-items: center;
 }
 
 .container-left,
@@ -59,11 +58,19 @@ h1 {
 @media only screen and (max-width: 480px) {
   main img {
     max-width: 40%;
+    margin: 2em 0;
+  }
+
+  .container,
+  .container-left,
+  .container-right {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
 /* For tablets: */
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 767px) {
   #hide-mobile {
     display: none;
   }
@@ -75,10 +82,17 @@ h1 {
   .info {
     display: none;
   }
+
+  .container,
+  .container-left,
+  .container-right {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 /* For large desktop: */
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1280px) {
   .hide-desktop,
   #hide-desktop {
     display: none;
@@ -96,7 +110,7 @@ h1 {
   }
 
   .header-image {
-    height: 20em;
+    height: 42.5vw;
     width: 100%;
   }
 
@@ -118,5 +132,19 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     column-gap: 5%;
+  }
+
+  .container {
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .container img {
+    justify-self: baseline;
+  }
+
+  .container-left,
+  .container-right {
+    flex-wrap: nowrap;
   }
 }

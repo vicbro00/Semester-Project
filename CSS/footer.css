@@ -19,7 +19,7 @@
 }
 
 /*Mobile styles */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .bot-nav {
     justify-content: space-evenly;
   }
@@ -49,7 +49,7 @@
 }
 
 /* For tablets: */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 767px) {
   .bot-nav {
     justify-content: space-evenly;
   }
@@ -79,7 +79,7 @@
 }
 
 /* For desktop: */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1280px) {
   .bot-nav {
     display: none;
   }
@@ -92,6 +92,7 @@
     bottom: none;
     left: none;
     right: none;
+    margin-top: 5em;
   }
 
   footer p {
@@ -152,5 +153,9 @@
   .follow {
     display: flex;
     justify-content: space-between;
+  }
+
+  footer i {
+    cursor: pointer;
   }
 }
