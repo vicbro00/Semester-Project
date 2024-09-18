@@ -49,10 +49,14 @@ nav h1:hover {
   display: none;
 }
 
-.checkbutton {
+label {
   font-size: 3.5em;
   color: white;
   margin-left: 0.5em;
+}
+
+.hidden {
+  display: none;
 }
 
 .hamb-menu {
