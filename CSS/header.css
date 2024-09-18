@@ -40,6 +40,11 @@ nav h1:hover {
   font-size: 2em;
 }
 
+.title:hover {
+  text-decoration: none;
+  color: white;
+}
+
 #checkbox {
   display: none;
 }
