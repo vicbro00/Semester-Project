@@ -39,7 +39,7 @@ nav h1:hover {
   font-size: 2em;
 }
 
-#check {
+#checkbox {
   display: none;
 }
 
@@ -49,8 +49,8 @@ nav h1:hover {
   margin-left: 0.5em;
 }
 
-#check:checked ~ .menu {
-  display: block;
+.hamb-menu {
+  display: none;
 }
 
 .menu {
@@ -81,7 +81,7 @@ nav h1:hover {
   object-fit: cover;
 }
 
-/* For mobiles: */ 
+/* For mobiles and tablets: */ 
 @media only screen and (min-width: 375px) {
   main img {
     max-width: 40%;
@@ -103,30 +103,7 @@ nav h1:hover {
     display: none;
   }
 
-  #check:checked ~ .menu {
-    display: block;
-  }
-
-  .info {
-    display: none;
-  }
-}
-
-/* For tablets: */
-@media only screen and (min-width: 767px) {
-  .menu {
-    height: 16.6em;
-  }
-
-  .menu a {
-    margin: 0.8em 0;
-  }
-
-  #hide-mobile {
-    display: none;
-  }
-
-  .hide.mobile {
+  #menu:checked ~ .menu {
     display: block;
   }
 
@@ -148,7 +125,6 @@ nav h1:hover {
     font-size: 1.5em;
   }
 
-  #check,
   .checkbutton,
   .title {
     display: none;
