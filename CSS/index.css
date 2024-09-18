@@ -33,6 +33,7 @@ main img {
   display: flex;
   margin: 2em 0;
   gap: 10%;
+  align-items: center;
 }
 
 .brown {
