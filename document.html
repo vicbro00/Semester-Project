@@ -33,7 +33,7 @@
     <header>
       <nav>
         <input class="hamb-menu" type="checkbox" id="menu"/>
-        <label class="checkbutton" for="menu" ><i class="fa-solid fa-bars"></i></label>
+        <label role="Hamburger menu button" class="checkbutton" for="menu" ><i class="fa-solid fa-bars"></i><span class="hidden">Menu</span></label>
         <ul class="menu">
           <li><a href="contact.html">Contact</a></li>
           <li><a href="contribution.html">Contribution</a></li>
@@ -56,11 +56,10 @@
           </a>
         </div>
         <a href="index.html" class="logo">
-          <img src="Pictures/Logo.png" alt="Green and black dinosaur head, inside a circular green shape, the logo of the Museum of Wonders Webpage.">
+          <img src="Pictures/Logo.png" alt="Green dinosaur skeleton head in a circle, the logo of Museum of Wonders">
         </a>
       </nav>
     </header>
-
   <main>
     <h1 class="bold">Documents</h1>
     <h1>Privacy policy</h1>
@@ -193,7 +192,7 @@
   <footer>
     <div class="footer-container">
       <div class="footer-copyright">
-        <img src="Pictures/Logo.png">
+        <img src="Pictures/Logo.png" alt="Green dinosaur skeleton head in a circle, the logo of Museum of Wonders">
         <p>&copy;Copyright</p>
       </div>
       <div class="footer-left">
@@ -216,10 +215,8 @@
           <p>Newsletter</p>
         </div>
         <div>
-          <p>Enter your email to subscribe to our newsletter:</p>
-          <label>
-            <input type="email" name="email-address" id="newsletter" placeholder="Email..">
-          </label>
+          <label for="newsletter">Enter your email to subscribe to our newsletter:</label>
+          <input type="email" name="email-address" id="newsletter" placeholder="Email..">
         </div>
         <div class="follow">
           <p>Follow us!</p>
@@ -231,10 +228,10 @@
     </div>
     <nav class="bot-nav">
       <p>&copy; Copyright</p>
-      <a href="index.html"><i class="fa-solid fa-house"></i></a>
+      <a href="index.html"><i class="fa-solid fa-house"></i><span class="hidden">Home</span></a>
       <i class="fa-solid fa-magnifying-glass"></i>
       <i class="fa-solid fa-location-dot"></i>
-      <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
+      <a href="index.html"><i class="fa-solid fa-arrow-left"></i><span class="hidden">Back</span></a>
     </nav>
   </footer>
 
