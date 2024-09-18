@@ -18,6 +18,11 @@
   align-items: center;
 }
 
+label {
+  color: white;
+  font-family: 'noto serif';
+}
+
 /*Mobile styles */
 @media screen and (min-width: 375px) {
   .bot-nav {
