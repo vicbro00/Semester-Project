@@ -2,6 +2,19 @@ main img {
   width: 100%;
 }
 
+p {
+  margin: 2em 0;
+}
+
+.indent {
+  display: block;
+  margin-top: 1.5em;
+}
+
+.museum-img {
+  min-width: 100%;
+}
+
 .header {
   background-color: rgb(2, 91, 56);
   border-radius: 25px;
@@ -10,15 +23,6 @@ main img {
   padding: 0.5em;
   width: 80%;
   margin: 1em auto;
-}
-
-p {
-  margin: 2em 0;
-}
-
-.indent {
-  display: block;
-  margin-top: 1.5em;
 }
 
 button {

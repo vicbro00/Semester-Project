@@ -4,15 +4,12 @@ main img {
   float: right;
 }
 
-.form-text {
-  text-align: center;
-  font-size: 2em;
+h2 {
+  margin: 1.5em 0;
 }
 
-.hours {
-  width: 60%;
-  display: inline-block;
-  margin: 0;
+.indent {
+  display: block;
 }
 
 .header {
@@ -25,12 +22,15 @@ main img {
   margin: 1em auto;
 }
 
-.indent {
-  display: block;
+.hours {
+  width: 60%;
+  display: inline-block;
+  margin: 0;
 }
 
-h2 {
-  margin: 1.5em 0;
+.form-text {
+  text-align: center;
+  font-size: 2em;
 }
 
 .container {
@@ -41,7 +41,7 @@ h2 {
   font-size: 1.25em;
   border-radius: 25px;
   display: grid;
-  width: 50%;
+  max-width: 50%;
   margin: 4em auto;
   padding: 2em;
 }
@@ -64,6 +64,10 @@ input[type="submit"] {
   padding: 0.5em 3em;
   width: auto;
   margin: 2em 0;
+}
+
+input[type="text"] {
+  max-width: 50%;
 }
 
 /* For mobiles: */ 
@@ -115,5 +119,9 @@ input[type="submit"] {
 
   input[type="submit"]:hover {
     background-color: rgb(39, 39, 39);
+  }
+
+  #message {
+    min-width: 100%;
   }
 }

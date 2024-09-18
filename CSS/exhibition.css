@@ -11,11 +11,21 @@ h3 {
   text-decoration: underline;
 }
 
+main p {
+  background-color: rgb(216, 216, 216);
+  padding: 1em;
+}
+
 main img {
   max-width: 25em;
   max-height: 15em;
   justify-content: center;
   border-radius: 2em;
+}
+
+.indent {
+  display: block;
+  margin-top: 1.5em;
 }
 
 .header {
@@ -35,11 +45,6 @@ main img {
   justify-items: center;
 }
 
-main p {
-  background-color: rgb(216, 216, 216);
-  padding: 1em;
-}
-
 .mid-img {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -50,11 +55,6 @@ main p {
   min-width: 100%;
   min-height: 20vw;
   object-fit: cover;
-}
-
-.indent {
-  display: block;
-  margin-top: 1.5em;
 }
 
 .bold {

@@ -39,11 +39,6 @@ p {
   text-align: justify;
 }
 
-/* For mobiles: */ 
-@media only screen and (min-width: 375px) {
-
-}
-
 /* For tablets: */
 @media only screen and (min-width: 767px) {
   body {

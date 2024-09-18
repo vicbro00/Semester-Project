@@ -150,12 +150,12 @@
     font-size: 3em;
   }
 
+  footer i {
+    cursor: pointer;
+  }
+
   .follow {
     display: flex;
     justify-content: space-between;
-  }
-
-  footer i {
-    cursor: pointer;
   }
 }
