@@ -62,10 +62,6 @@ main img {
   font-weight: 700;
 }
 
-.brown {
-  color: rgb(154, 101, 40);
-}
-
 /* For mobiles: */ 
 @media only screen and (min-width: 375px) {
   .mid-img {

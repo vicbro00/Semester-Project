@@ -44,6 +44,18 @@ main img {
   color: rgb(22, 62, 163);
 }
 
+.red {
+  color: red;
+}
+
+.grey {
+  color: grey;
+}
+
+.orange {
+  color: rgb(158, 103, 0);
+}
+
 .bold {
   font-weight: 700;
 }
