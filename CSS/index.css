@@ -66,6 +66,13 @@ main img {
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  .bot-bar {
+    background-color: rgb(2, 91, 56);
+    height: 1em;
+    width: 100%;
+    margin: 4em 0;
+  }
 }
 
 /* For tablets: */
@@ -94,7 +101,8 @@ main img {
   }
   
   .hide-desktop,
-  #hide-desktop {
+  #hide-desktop,
+  .bot-bar {
     display: none;
   }
 
