@@ -119,6 +119,10 @@ label {
   .info {
     display: none;
   }
+
+  .checkbutton {
+    font-size: 2em;
+  }
 }
 
 /* For large desktop: */

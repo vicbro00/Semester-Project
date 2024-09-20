@@ -55,6 +55,11 @@ main img {
     margin: 2em 0;
   }
 
+  #hide-mobile,
+  #hide-mobile1 {
+    display: none;
+  }
+
   .container,
   .container-left,
   .container-right {
@@ -65,11 +70,8 @@ main img {
 
 /* For tablets: */
 @media only screen and (min-width: 767px) {
-  #hide-mobile {
-    display: none;
-  }
-
-  .hide.mobile {
+  .teachers,
+  .researchers {
     display: block;
   }
 
