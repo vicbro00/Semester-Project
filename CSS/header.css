@@ -139,6 +139,11 @@ label {
     font-size: 1.5em;
   }
 
+  header img {
+    max-width: 4em;
+    margin: 1em 4em;
+  }
+
   .checkbutton,
   .title {
     display: none;
