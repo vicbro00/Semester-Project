@@ -64,7 +64,7 @@ label {
 
 .menu {
   position: absolute;
-  top: 4.5em;
+  top: 4em;
   left: 0;
   background-color: rgb(2, 91, 56);
   z-index: 1;
