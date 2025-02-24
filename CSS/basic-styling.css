@@ -166,6 +166,10 @@ nav h1 {
   object-fit: cover;
 }
 
+.hidden {
+  display: none;
+}
+
 /*Footer styling*/
 label {
   color: white;
@@ -195,7 +199,39 @@ label {
 }
 
 /* For desktop: */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 826px) {
+  /*Universal styles*/
+  p {
+    font-size: 1em;
+  }
+  
+  /*Header styling*/
+  .menu-toggle {
+    display: none;
+  }
+
+  .menu-links {
+    display: none;
+  }
+
+  .title {
+    display: none;
+  }
+  
+  .info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5%;
+    width: 100%;
+  }
+
+  .info h1 {
+    color: white;
+    display: inline-block;
+    font-size: 1.5em;
+  }
+
   /*Footer styling*/
   footer {
     height: auto;

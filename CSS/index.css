@@ -60,78 +60,12 @@ main img {
   font-weight: 700;
 }
 
-/* For mobiles: */ 
-@media only screen and (min-width: 375px) {
-  main img {
-    max-width: 40%;
-    margin: 2em 0;
-  }
-
-  #hide-mobile,
-  #hide-mobile1 {
-    display: none;
-  }
-
-  .container,
-  .container-left,
-  .container-right {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .bot-bar {
-    background-color: rgb(2, 91, 56);
-    height: 1em;
-    width: 100%;
-    margin: 4em 0;
-  }
-}
-
-/* For tablets: */
-@media only screen and (min-width: 767px) {
-  .teachers,
-  .researchers {
-    display: block;
-  }
-
-  .info {
-    display: none;
-  }
-
-  .container,
-  .container-left,
-  .container-right {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-}
-
 /* For large desktop: */
 @media only screen and (min-width: 1280px) {
-  h2 {
-    display: inline-block;
-  }
-  
   .hide-desktop,
   #hide-desktop,
   .bot-bar {
     display: none;
-  }
-
-  .info {
-    display: block;
-  }
-
-  .info h1 {
-    color: white;
-    display: inline-block;
-    margin: 0 0 0 4em;
-    font-size: 1.5em;
-  }
-
-  .header-image {
-    height: 42.5vw;
-    width: 100%;
   }
 
   #hide-mobile,
