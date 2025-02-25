@@ -1,6 +1,6 @@
 # Semester Project 1 (Museum of Wonders)
 
-Website preview(![Museum of Wonders preview](https://github.com/user-attachments/assets/60289f19-0d97-4d8d-90e7-8ccc235217d7)
+Website preview![Museum of Wonders preview](https://github.com/user-attachments/assets/60289f19-0d97-4d8d-90e7-8ccc235217d7)
 
 A simple overview of the use/purpose of the project.
 
@@ -16,10 +16,8 @@ You can add some bullet points if you'd like to:
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- HTML
+- CSS
 
 ## Getting Started
 
