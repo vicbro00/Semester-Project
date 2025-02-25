@@ -54,6 +54,10 @@ input:hover {
   cursor: pointer;
 } 
 
+button:hover {
+  background-color: rgb(39, 39, 39);
+}
+
 /*Header styling*/
 header {
   background-color: rgb(2, 91, 56);
