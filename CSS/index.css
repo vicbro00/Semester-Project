@@ -1,10 +1,16 @@
-h1 {
-  text-align: center;
+/*Universal styles*/
+main {
+  margin: 0 0.5em;
 }
 
 main img {
   max-width: 40%;
   height: fit-content;
+}
+
+/*Main styles*/
+#hideMobile {
+  display: none;
 }
 
 .indent {
@@ -23,13 +29,9 @@ main img {
   margin: 4em 0;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-}
-
 .container-left,
-.container-right {
+.container-right,
+.container {
   display: flex;
   margin: 2em 0;
   gap: 10%;
@@ -61,36 +63,50 @@ main img {
 }
 
 /* For large desktop: */
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 826px) {
+  /*Universal styles*/
+  h1 {
+    font-size: 2em;
+  }
+  
+  p {
+    font-size: 1em;
+  }
+
+  /*Main styling*/
+  .container img {
+    min-width: 80%;
+  }
+
+  .container-left,
+  .container-right,
+  .container {
+  display: flex;
+  margin: 2em 0;
+  gap: 10%;
+  align-items: center;
+  }
+  
   .hide-desktop,
-  #hide-desktop,
+  #hideDesktop,
   .bot-bar {
     display: none;
   }
 
-  #hide-mobile,
-  .for-kids {
+  #hideMobile,
+  #forKids {
     display: inline-block;
-  }
-
-  .hide-mobile {
-    margin: 0;
   }
 
   .parent {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
     column-gap: 5%;
   }
 
   .container {
     flex-direction: column;
-    justify-content: start;
-  }
-
-  .container img {
-    justify-self: baseline;
+    justify-content: flex-start;
   }
 
   .container-left,

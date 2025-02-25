@@ -27,15 +27,13 @@ h1 {
   font-family: 'pt serif', 'roboto slab', 'noto serif';
   font-size: 2.5em;
   margin: 1em 0;
+  font-size: 1.5em;
 }
 
 h2 {
   font-family: 'roboto slab', 'pt serif', 'noto serif';
   color: rgb(2, 91, 56);
-}
-
-p {
-  font-size: 0.75em;
+  font-size: 1.2em;
 }
 
 h3,
@@ -43,6 +41,10 @@ p {
   font-family: 'noto serif', 'pt serif', 'roboto slab';
   margin-bottom: 2em;
   line-height: 1.5em;
+}
+
+p {
+  font-size: 0.75em;
 }
 
 a {
@@ -202,7 +204,7 @@ label {
 @media only screen and (min-width: 826px) {
   /*Universal styles*/
   p {
-    font-size: 1em;
+    font-size: 2em;
   }
   
   /*Header styling*/
