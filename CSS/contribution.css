@@ -1,28 +1,10 @@
+/*Universal styles*/
 main img {
   width: 100%;
 }
 
 p {
   margin: 2em 0;
-}
-
-.indent {
-  display: block;
-  margin-top: 1.5em;
-}
-
-.museum-img {
-  min-width: 100%;
-}
-
-.header {
-  background-color: rgb(2, 91, 56);
-  border-radius: 25px;
-  color: white;
-  text-align: center;
-  padding: 0.5em;
-  max-width: 80%;
-  margin: 1em auto;
 }
 
 button {
@@ -41,4 +23,14 @@ button {
 button:hover {
   background-color: rgb(39, 39, 39);
   cursor: pointer;
+}
+
+/*Main styles*/
+.indent {
+  display: block;
+  margin-top: 1.5em;
+}
+
+.museum-img {
+  min-width: 100%;
 }

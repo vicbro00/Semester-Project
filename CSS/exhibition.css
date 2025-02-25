@@ -1,7 +1,9 @@
+/*Universal styles*/
 h2 {
   text-align: center;
 }
 
+/*Main styles*/
 main img {
   max-width: 25em;
   max-height: 15em;
@@ -12,16 +14,6 @@ main img {
 .indent {
   display: block;
   margin-top: 1.5em;
-}
-
-.header {
-  background-color: rgb(2, 91, 56);
-  border-radius: 25px;
-  color: white;
-  text-align: center;
-  padding: 0.5em;
-  width: 80%;
-  margin: 1em auto;
 }
 
 .container {
@@ -46,7 +38,7 @@ main img {
   font-weight: 700;
 }
 
-/* For large desktop: */
+/* For desktop */
 @media only screen and (min-width: 826px) {
   .container {
     display: block;

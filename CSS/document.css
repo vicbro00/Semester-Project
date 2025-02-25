@@ -1,3 +1,4 @@
+/*Universal styles*/
 main ul {
   list-style-type: circle;
   padding: 0;
@@ -8,6 +9,7 @@ main li {
   font-size: 0.75em;
 }
 
+/*For desktop*/
 @media only screen and (min-width: 826px) {
   main li {
     font-size: 1em;

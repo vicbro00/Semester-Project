@@ -1,7 +1,4 @@
-body main {
-  padding: 0;
-}
-
+/*Universal styles*/
 main img {
   max-width: 50%;
   display: inline-block;
@@ -11,6 +8,20 @@ h2 {
   margin: 1.5em 0;
 }
 
+button {
+  background-color: black;
+  color: white;
+  font-family: 'noto serif';
+  font-size: 1em;
+  border-radius: 25px;
+  border-style: none;
+  justify-self: center;
+  padding: 0.5em 3em;
+  width: auto;
+  margin: 2em 0;
+}
+
+/*Main styles*/
 .hours-container {
   display: flex;
 }
@@ -64,20 +75,7 @@ input {
   max-width: 50%;
 }
 
-button {
-  background-color: black;
-  color: white;
-  font-family: 'noto serif';
-  font-size: 1em;
-  border-radius: 25px;
-  border-style: none;
-  justify-self: center;
-  padding: 0.5em 3em;
-  width: auto;
-  margin: 2em 0;
-}
-
-/* For large desktop: */
+/* For desktop: */
 @media only screen and (min-width: 826px) {
   /*Forms styling*/
   .container {
