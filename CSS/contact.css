@@ -2,10 +2,7 @@
 main img {
   max-width: 50%;
   display: inline-block;
-}
-
-h2 {
-  margin: 1.5em 0;
+  object-fit: contain;
 }
 
 button {
@@ -38,7 +35,6 @@ button {
 /*Form styling*/
 .form-text {
   text-align: center;
-  font-size: 2em;
 }
 
 .container {
@@ -72,7 +68,13 @@ input {
   border-radius: 25px;
   border-style: solid;
   border-color: white;
-  max-width: 50%;
+  max-width: 100%;
+}
+
+button {
+  display: flex;
+  margin: auto;
+  margin-top: 1em;
 }
 
 /* For desktop: */
