@@ -49,6 +49,11 @@ a {
   text-decoration: none;
 }
 
+button:hover,
+input:hover {
+  cursor: pointer;
+} 
+
 /*Header styling*/
 header {
   background-color: rgb(2, 91, 56);

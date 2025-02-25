@@ -3,35 +3,28 @@ body main {
 }
 
 main img {
-  height: fit-content;
-  margin: auto;
-  float: right;
+  max-width: 50%;
+  display: inline-block;
 }
 
 h2 {
   margin: 1.5em 0;
 }
 
+.hours-container {
+  display: flex;
+}
+
 .indent {
   display: block;
 }
 
-.header {
-  background-color: rgb(2, 91, 56);
-  border-radius: 25px;
-  color: white;
-  text-align: center;
-  padding: 0.5em;
-  max-width: 80%;
-  margin: 1em auto;
-}
-
 .hours {
-  width: 60%;
+  width: 50%;
   display: inline-block;
-  margin: 0;
 }
 
+/*Form styling*/
 .form-text {
   text-align: center;
   font-size: 2em;
@@ -44,10 +37,16 @@ h2 {
   font-family: 'noto serif';
   font-size: 1.25em;
   border-radius: 25px;
-  display: grid;
-  max-width: 50%;
   margin: 4em auto;
   padding: 2em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.container div {
+  display: flex;
+  flex-direction: column;
 }
 
 .container label {
@@ -56,6 +55,13 @@ h2 {
 
 #message {
   height: 6em;
+}
+
+input {
+  border-radius: 25px;
+  border-style: solid;
+  border-color: white;
+  max-width: 50%;
 }
 
 button {
@@ -71,62 +77,37 @@ button {
   margin: 2em 0;
 }
 
-input[type="text"] {
-  max-width: 50%;
-}
-
-/* For mobiles: */ 
-@media only screen and (min-width: 375px) {
-  main img {
-    max-width: 30%;
-  }
-
-  main {
-    padding: 0 1em;
-    box-sizing: border-box;
-  }
-
-  .container {
-    width: 90%;
-    margin: auto;
-    padding: 1em;
-  }
-
-  input[type="text"] {
-    border-radius: 25px;
-    border: none;
-    height: 2em;
-  }
-}
-
-/* For tablets: */
-@media only screen and (min-width: 767px) {
-  main img {
-    max-width: 30%;
-  }
-
-  input[type="text"] {
-    border-radius: 25px;
-    border: none;
-    height: 2em;
-  }
-}
-
 /* For large desktop: */
-@media only screen and (min-width: 1280px) {
-  main img {
-    min-width: 40%;
+@media only screen and (min-width: 826px) {
+  /*Forms styling*/
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
   }
 
-  input[type="submit"] {
-    cursor: pointer;
+  .container div:nth-child(3) {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
 
-  input[type="submit"]:hover {
-    background-color: rgb(39, 39, 39);
+  .container div {
+    max-width: 90%;
+  }
+
+  .message-container {
+    justify-self: center;
   }
 
   #message {
-    min-width: 100%;
+    width: 80%;
+    height: 10em;
+  }
+
+  input {
+    max-width: 100%;
   }
 }
