@@ -1,7 +1,5 @@
 /*Universal styles*/
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   text-decoration: none;
 }
@@ -180,6 +178,10 @@ label {
   font-size: 1em;
 }
 
+footer p {
+  display: none;
+}
+
 .footer-container {
   display: none;
 }
@@ -203,8 +205,12 @@ label {
 /* For desktop: */
 @media only screen and (min-width: 826px) {
   /*Universal styles*/
-  p {
+  h1 {
     font-size: 2em;
+  }
+  
+  p {
+    font-size: 1em;
   }
   
   /*Header styling*/
@@ -244,6 +250,7 @@ label {
   }
 
   footer p {
+    display: block;
     color: white;
     margin: 0.4em 0;
   }

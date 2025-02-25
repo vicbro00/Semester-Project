@@ -8,6 +8,10 @@ main img {
   height: fit-content;
 }
 
+h2 {
+  margin: 1em 0;
+}
+
 /*Main styles*/
 #hideMobile {
   display: none;
@@ -64,15 +68,6 @@ main img {
 
 /* For large desktop: */
 @media only screen and (min-width: 826px) {
-  /*Universal styles*/
-  h1 {
-    font-size: 2em;
-  }
-  
-  p {
-    font-size: 1em;
-  }
-
   /*Main styling*/
   .container img {
     min-width: 80%;
