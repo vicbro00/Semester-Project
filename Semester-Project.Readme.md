@@ -1,7 +1,6 @@
 # Semester Project 1 (Museum of Wonders)
 
-![image](![Museum of Wonders preview](https://github.com/user-attachments/assets/60289f19-0d97-4d8d-90e7-8ccc235217d7)
-)
+Website preview(![Museum of Wonders preview](https://github.com/user-attachments/assets/60289f19-0d97-4d8d-90e7-8ccc235217d7)
 
 A simple overview of the use/purpose of the project.
 
