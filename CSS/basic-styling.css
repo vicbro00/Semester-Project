@@ -147,16 +147,16 @@ nav h1 {
 }
 
 .menu-toggle input:checked ~ span {
-  opacity: 1;
-  transform: rotate(45deg);
+    opacity: 1;
+    transform: rotate(45deg);
 }
 
-.menu-toggle input:checked ~ span:nth-last-child(3) {
-  opacity: 0;
+  .menu-toggle input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
 }
 
-.menu-toggle input:checked ~ span:nth-last-child(2) {
-  transform: rotate(-45deg);
+  .menu-toggle input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg);
 }
 
 /*Main styles*/
