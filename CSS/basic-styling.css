@@ -261,6 +261,10 @@ footer p {
     font-size: 1.5em;
   }
 
+  .info h1:hover {
+    text-decoration: underline;
+  }
+
   /*Footer styling*/
   footer {
     height: auto;
