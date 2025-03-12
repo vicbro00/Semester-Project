@@ -22,7 +22,7 @@ Clone the repo
 1. Clone the repo:
 
 ```bash
-git clone git@https://github.com/vicbro00/Semester-Project.git
+git clone https://github.com/vicbro00/Semester-Project.git
 ```
 
 2. Install the dependencies:
@@ -33,7 +33,9 @@ npm install
 
 ### Running
 
-Nothing special needed to run as it's only HTML and CSS.
+Clone or download the project repository to your local machine
+Navigate to the project directory
+Install the project dependencies with npm install
 
 To run the app, run the following commands:
 
